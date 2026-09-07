@@ -1,0 +1,134 @@
+\documentclass[10pt,xcolor={table,xcdraw}]{beamer}
+
+\usetheme[
+%url={nano.polymtl.ca},
+%numbering={false},
+menuwidth={0.35\paperwidth}
+]{polymtl}
+\usepackage[utf8]{inputenc}
+%\setlist[myitemize,1]{label=\textbullet,leftmargin=1in}
+\setbeamercovered{transparent=20}
+\usepackage{graphicx} 
+\usepackage[table,xcdraw]{xcolor}
+\graphicspath{{./Figures/}}
+%\usepackage{epstopdf}
+\usepackage{caption}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{tabu}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{float}
+%\usepackage{subfigure}
+\usepackage{ragged2e}
+\usepackage{amsfonts}
+\usepackage{cancel}
+\usepackage{animate}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{framed, color}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage[pangram]{blindtext}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage{verbatim}
+%\usepackage{pgfplots}
+\usetikzlibrary{shapes,arrows,calc,shadows}
+%\usetikzlibrary{decorations.markings}
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage{pgfgantt}
+\bibliographystyle{unsrt}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{sidecap}
+\usepackage{wrapfig}
+
+\usepackage[bottom]{footmisc}
+
+%\usepackage{booktabs} 
+\usepackage[]{algorithmicx}
+\usepackage[]{algpseudocode}
+\bibliographystyle{plain}
+\usepackage{setspace}
+\usepackage{marvosym} % \MVRIGHTarrow
+
+
+\setbeamersize{text margin left=10pt,text margin right=10pt}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+
+\definecolor{shadecolor}{rgb}{0., 0., 0.}
+
+\newcommand\topicSlide[3]{
+\begin{frame}
+\vspace*{1cm}
+\begin{tcolorbox}[width=\textwidth,
+boxsep=0pt,
+left=0pt,
+right=0pt,
+top=10pt,
+arc=0pt,
+boxrule=0pt,toprule=1pt,
+bottomrule=1pt,
+colback=polymtlbluel,
+grow to left by=10mm,
+grow to right by=10mm,
+arc = 0mm
+]%%
+\centering
+\textcolor{polymtlwhite}{\huge #1}
+\vspace*{10pt}
+\textcolor{polymtlwhite}{\\ \Large #2}
+\vspace*{10pt}
+\textcolor{polymtlwhite}{\\ \normalsize #3}
+\end{tcolorbox}
+\end{frame}
+}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=3pt] (char) {#1};}}
+
+
+\setbeamertemplate{caption}[numbered]
+\captionsetup[figure]{labelformat=default}
+\captionsetup[table]{labelformat=default}
+
+
+\begin{document}
+
+\title [IPW3 : ONERAM6]{\large IPW3 : ONERAM6 Code-to-Code Comparisons} 
+
+\author[K. Zayni]{\small Karim Zayni, PhD Student \\ Maxime Blanchet, PhD Student \\ Éric Laurendeau, PhD, Professor}
+
+
+\date{\small September 22, 2026}
+\institute{Polytechnique Montreal}
+
+\begin{frame}[plain]
+\vspace{-0.5cm}
+\begin{columns}
+\column{.05\textwidth}
+\column{.9\textwidth}
+\titlepage
+\column{.05\textwidth}
+\end{columns}
+\end{frame}
+
+\begin{frame}{\small \textbf{Table of Contents}}
+\small
+\tableofcontents
+\end{frame}
+
+\input{SLIDES/00_CASE_CONDITIONS}
+\input{SLIDES/01_AERODYNAMIC_CONVERGENCE}
+\input{SLIDES/02_IMPINGEMENT_CONVERGENCE}
+\input{SLIDES/03_HTC_CONVERGENCE}
+\input{SLIDES/04_SURF_TEMP_FF}
+\input{SLIDES/05_ICE_ACCRETION_CONVERGENCE}
+\input{SLIDES/06_OVERALL_ASSESSMENT}
+
+\end{document}

@@ -1,0 +1,196 @@
+\section[Cond.]{\textbf{Case Conditions}}
+
+% ============================================================
+% ONERA M6 -- Geometry and Aerodynamic Conditions
+% ============================================================
+
+\begin{frame}{\small Geometry and Aerodynamic Conditions}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+%------------------------------------------------
+\begin{column}{0.43\textwidth}
+
+\begin{figure}
+    \centering
+    \includegraphics[height=0.4\textheight]{FIGURES_CONDITIONS/ONERA_M6_GEOMETRY_VIEW.png}
+\end{figure}
+
+\vspace{-0.15cm}
+
+\centering
+\textbf{ONERA M6 L1 Surface Mesh}
+
+\end{column}
+
+%------------------------------------------------
+\begin{column}{0.53\textwidth}
+
+\textbf{Geometry}
+
+\vspace{0.15cm}
+
+\begin{tabular}{lc}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Wing & ONERA M6 \\
+Root chord [m] & $1.0000$ \\
+Semi-span [m] & $1.4760$ \\
+Mean aerodynamic chord [m] & $0.801673$ \\
+Reference area [m$^2$] & $1.1532$ \\
+Angle of attack, $\alpha$ [$^\circ$] & $2.0$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.35cm}
+
+\textbf{Aerodynamic Conditions}
+
+\vspace{0.15cm}
+
+\begin{tabular}{lc}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+$M_\infty$ & $0.40$ \\
+$U_\infty$ [m/s] & $131.064$ \\
+$T_\infty$ [K] & $267.15$ \\
+$\rho_\infty$ [kg/m$^3$] & $0.68301$ \\
+$Re_c$ & $4.2558\times10^6$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.35cm}
+
+\textbf{Quantities of Interest}
+
+\vspace{-0.10cm}
+
+\[
+C_L,\qquad C_D,\qquad C_M,\qquad C_p
+\]
+
+\end{column}
+
+\end{columns}
+
+\end{frame}
+
+
+% ============================================================
+% ONERA M6 -- Icing Conditions
+% ============================================================
+
+\begin{frame}[shrink]{\small Icing Conditions}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+%------------------------------------------------
+\begin{column}{0.43\textwidth}
+
+\begin{figure}
+    \centering
+    \includegraphics[height=0.4\textheight]{FIGURES_CONDITIONS/ONERA_M6_GEOMETRY_VIEW.png}
+\end{figure}
+
+\vspace{-0.20cm}
+
+\centering
+\textbf{ONERA M6 L1 Surface Mesh}
+
+\vspace{0.25cm}
+
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Grid} & \textbf{Nodes} \\
+\midrule
+L1 & $60.78$ M \\
+L2 & $7.63$ M \\
+L3 & $0.960$ M \\
+L4 & $0.122$ M \\
+\bottomrule
+\end{tabular}
+
+\end{column}
+
+%------------------------------------------------
+\begin{column}{0.53\textwidth}
+
+\textbf{Icing Conditions}
+
+\vspace{0.15cm}
+
+\begin{tabular}{lc}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+$T_\infty$ [K]          & $267.15$ \\
+$T_0$ [K]               & $275.7$ \\
+$M_\infty$              & $0.40$ \\
+$U_\infty$ [m/s]        & $131.064$ \\
+LWC [g/m$^3$]           & $0.51$ \\
+MVD [$\mu$m]            & $20$ \\
+Exposure time [s]       & $1350$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.30cm}
+
+\textbf{Droplet Distribution} : 1, 3, 7 $\&$ 15 bin distributions are considered
+
+\vspace{0.25cm}
+
+\begin{block}{\scriptsize Common Modeling Parameters}
+
+A dimensional roughness of \textbf{$k_s=1.0$ mm} is prescribed as the baseline, and a common ice density of \textbf{$\rho_{\mathrm{ice}}=680~\mathrm{kg/m^3}$} is used for the comparison.
+
+\end{block}
+
+\vspace{0.20cm}
+
+\textbf{Quantities of Interest}
+
+\vspace{-0.25cm}
+
+\[
+\beta,\quad HTC,\quad T_s,\quad f,\quad
+m_{\mathrm{water}},\quad m_{\mathrm{ice}},\quad
+m_{\mathrm{evap}}
+\]
+
+\end{column}
+
+\end{columns}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Modeling Choices
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Modeling Choices Across Submissions}
+\scriptsize
+
+% Turbulence-model usage
+% Example: SA = 80\%, k-\omega SST = 20\%
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Data Received
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Summary of Data Received}
+\scriptsize
+
+% Number of submissions / participants
+% Grid levels received
+% Droplet distributions received
+% Roughness configurations received
+% Available aerodynamic, impingement, thermal, and ice-accretion data
+
+\end{frame}

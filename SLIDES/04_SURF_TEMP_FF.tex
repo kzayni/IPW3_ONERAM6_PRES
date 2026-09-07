@@ -1,0 +1,451 @@
+% ============================================================
+% ONERA M6 -- Surface Temperature
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Surface Temperature Distribution (L1)}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice
+% ------------------------------------------------------------
+\only<1>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> Most submissions predict surface temperatures close to the freezing temperature over a large portion of the surface.
+    \item<1-> Local code-to-code differences are concentrated near the leading edge.
+    \item <1-> Submission 001 exhibits a markedly different thermodynamic response, with substantially lower surface temperatures away from the leading edge.
+    \item<2-> Similar differences are observed at the inboard and outboard spanwise stations.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+% ONERA M6 -- Mean Surface Temperature
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Mean Surface Temperature Grid Convergence}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice -- 1 mm roughness
+% ------------------------------------------------------------
+\only<1>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{Mean Surface Temperature}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png}
+
+    \vspace{0.05cm}
+
+    \textbf{Relative to L1}
+\end{column}
+
+\end{columns}
+
+\vspace{0.05cm}
+
+\centering
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices -- 1 mm roughness
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+% ------------------------------------------------------------
+% Middle slice -- roughness sensitivity
+% ------------------------------------------------------------
+\only<3>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness Sensitivity}
+}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> Mean surface temperature exhibits very limited grid sensitivity, with differences relative to L1 remaining well below $1\%$ for most submissions.
+    \item<1-> Most submissions are closely clustered.
+    \item<2-> Similar grid-convergence behavior is observed at the inboard and outboard spanwise stations.
+    \item<3-> Increasing the prescribed roughness height introduces a systematic increase in the mean surface temperature.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Recovery Temperature Distribution
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Reconstructed Recovery Temperature Distribution (L1)}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice
+% ------------------------------------------------------------
+\only<1>{
+\centering
+\includegraphics[width=0.60\textwidth]{FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.92\textwidth]{FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.92\textwidth]{FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+\vspace{0.05cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> The reconstructed recovery-temperature distributions are closely aligned across submissions.
+    \item<1-> This agreement is consistent with the good code-to-code agreement previously observed for $C_p$, from which $T_{\mathrm{rec}}$ is reconstructed.
+    \item<2-> Similar agreement is observed at the inboard and outboard spanwise stations.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Convective Heat Transfer Grid Convergence
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Convective Heat Transfer Grid Convergence}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice -- 1 mm roughness
+% ------------------------------------------------------------
+\only<1>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices -- 1 mm roughness
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+% ------------------------------------------------------------
+% Middle slice -- roughness sensitivity
+% ------------------------------------------------------------
+\only<3>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness Sensitivity}
+}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> Considerable code-to-code variability is observed in $Q_c'$ at $y=0.75$ m, with an L1 median of $-116.1$ W/m and an IQR of $83.9$ W/m.
+    \item<1-> Most submissions show comparatively limited changes between L1 and L2, while deviations of approximately $25$--$50\%$ relative to L1 develop on the coarser grids for selected submissions.
+    \item<2-> Large L1 code-to-code variability persists across the span, with IQR values of $77.5$, $83.9$, and $64.6$ W/m at $y=0.10$, $0.75$, and $1.40$ m, respectively.
+    \item<3-> Surface roughness introduces a systematic effect on $Q_c'$.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Freezing Fraction Distribution
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Freezing-Fraction Distribution (L1)}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice
+% ------------------------------------------------------------
+\only<1>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> Large code-to-code differences are observed in both the magnitude and spatial extent of the predicted freezing fraction.
+    \item<1-> Some submissions predict localized regions approaching complete freezing, while others predict predominantly low or zero freezing fractions.
+    \item<2-> Substantial differences in the predicted freezing regime persist across the inboard and outboard spanwise stations.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Mean Freezing Fraction
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Mean Freezing Fraction Grid Convergence}
+\scriptsize
+
+% ------------------------------------------------------------
+% Middle slice -- 1 mm roughness
+% ------------------------------------------------------------
+\only<1>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness: 1 mm}
+}
+
+% ------------------------------------------------------------
+% Inboard and outboard slices -- 1 mm roughness
+% ------------------------------------------------------------
+\only<2>{
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=0.10$ m}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$y=1.40$ m}
+\end{column}
+
+\end{columns}
+}
+
+% ------------------------------------------------------------
+% Middle slice -- roughness sensitivity
+% ------------------------------------------------------------
+\only<3>{
+\centering
+\includegraphics[width=0.62\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png}
+
+\vspace{0.05cm}
+
+\textbf{$y=0.75$ m -- Roughness Sensitivity}
+}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item<1-> Mean freezing fraction exhibits very large code-to-code variability, despite the comparatively close mean surface-temperature predictions for most submissions.
+    \item<1-> Grid sensitivity is submission-dependent, with some predictions remaining relatively stable while others vary substantially across the grid hierarchy.
+    \item<2-> Large code-to-code differences persist at the inboard and outboard spanwise stations.
+    \item<3-> Prescribed surface roughness introduces an additional systematic effect, but does not account for the large overall spread between submissions.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Convective Heat Transfer & Thermodynamics Summary
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Convective Heat Transfer \& Thermodynamics Summary}
+\scriptsize
+
+\begin{block}{\scriptsize Convective Heat Transfer}
+\begin{itemize}
+    \item Considerable code-to-code variability is observed in $HTC$, while reconstructed $T_{\mathrm{rec}}$ distributions remain closely aligned.
+    \item Consequently, $Q_c'$ exhibits substantial code-to-code variability, with an L1 IQR of $83.9$ W/m at $y=0.75$ m.
+\end{itemize}
+\end{block}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Surface Thermodynamics}
+\begin{itemize}
+    \item Mean surface temperature shows limited grid sensitivity and comparatively close agreement for most submissions.
+    \item In contrast, freezing fraction exhibits large code-to-code variability in both magnitude and spatial extent.
+\end{itemize}
+\end{block}
+
+\vspace{0.10cm}
+
+\begin{block}{\scriptsize Roughness Sensitivity}
+\begin{itemize}
+    \item Increasing roughness systematically increases $HTC$ and mean surface temperature.
+    \item Roughness also affects $Q_c'$ and freezing fraction, but does not explain the large overall code-to-code spread.
+\end{itemize}
+\end{block}
+
+\vspace{0.10cm}
+
+\begin{alertblock}{\scriptsize Thermodynamics Takeaway}
+Despite consistent aerodynamic loading and $T_{\mathrm{rec}}$, substantial variability develops through the convective and freezing models, with the largest differences appearing in the predicted freezing regime.
+\end{alertblock}
+
+\end{frame}
+
+
+
