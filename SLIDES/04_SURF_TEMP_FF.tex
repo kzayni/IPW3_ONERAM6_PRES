@@ -143,9 +143,21 @@
     \item<1-> Mean surface temperature exhibits very limited grid sensitivity, with differences relative to L1 remaining well below $1\%$ for most submissions.
     \item<1-> Most submissions are closely clustered.
     \item<2-> Similar grid-convergence behavior is observed at the inboard and outboard spanwise stations.
-    \item<3-> Increasing the prescribed roughness height introduces a systematic increase in the mean surface temperature.
+    \item<3-> Increasing the prescribed roughness height introduces a slight difference in the mean surface temperature.
 \end{itemize}
 \end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Participant-Level Roughness Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Participant-Level Mean Surface Temperature Roughness Sensitivity (L1)}
+\scriptsize
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=0.78\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png}
 
 \end{frame}
 
@@ -215,14 +227,34 @@
 \scriptsize
 
 % ------------------------------------------------------------
-% Middle slice -- 1 mm roughness
+% Middle slice -- absolute and relative to L1
 % ------------------------------------------------------------
 \only<1>{
-\centering
-\includegraphics[width=0.62\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png}
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png}
+
+    \vspace{0.05cm}
+
+    \textbf{$Q_c'$}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=0.94\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png}
+
+    \vspace{0.05cm}
+
+    \textbf{Relative to L1}
+\end{column}
+
+\end{columns}
 
 \vspace{0.05cm}
 
+\centering
 \textbf{$y=0.75$ m -- Roughness: 1 mm}
 }
 
@@ -270,11 +302,23 @@
 \begin{block}{\scriptsize Assessment}
 \begin{itemize}
     \item<1-> Considerable code-to-code variability is observed in $Q_c'$ at $y=0.75$ m, with an L1 median of $-116.1$ W/m and an IQR of $83.9$ W/m.
-    \item<1-> Most submissions show comparatively limited changes between L1 and L2, while deviations of approximately $25$--$50\%$ relative to L1 develop on the coarser grids for selected submissions.
+    \item<1-> Relative to L1, most submissions show comparatively limited changes between L1 and L2, while deviations of approximately $25$--$50\%$ develop on the coarser grids for selected submissions.
     \item<2-> Large L1 code-to-code variability persists across the span, with IQR values of $77.5$, $83.9$, and $64.6$ W/m at $y=0.10$, $0.75$, and $1.40$ m, respectively.
     \item<3-> Surface roughness introduces a systematic effect on $Q_c'$.
 \end{itemize}
 \end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Participant-Level Roughness Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Participant-Level HTC Roughness Sensitivity (L1)}
+\scriptsize
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=1.0\textwidth]{FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png}
 
 \end{frame}
 
@@ -404,6 +448,18 @@
     \item<3-> Prescribed surface roughness introduces an additional systematic effect, but does not account for the large overall spread between submissions.
 \end{itemize}
 \end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Participant-Level Roughness Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Participant-Level Freezing Fraction Roughness Sensitivity (L1)}
+\scriptsize
+\vspace{-0.2cm}
+\centering
+\includegraphics[width=1.0\textwidth]{FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png}
 
 \end{frame}
 

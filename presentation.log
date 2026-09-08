@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 19:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1922,12 +1922,39 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [23
 
- <./FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p75_all_roughness.png>]) (./SLIDES/04_SURF_TEMP_FF.tex
+ <./FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p75_all_roughness.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 90
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p1_all_roughness_participants.png, id=838, 1806.75pt x 1565.85pt>
+File: FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p1_all_roughness_participants.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p1_all_roughness_participants.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p1_all_roughness_participants.png  used on input line 90.
+(pdftex.def)             Requested size: 268.47195pt x 232.66922pt.
+
+Overfull \vbox (5.8513pt too high) detected at line 90
+ []
+
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 90.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (162.89418pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[24
+
+ <./FIGURES/HTC/tc_oneram6_L1_htc_vs_s_slice_0p1_all_roughness_participants.png>]) (./SLIDES/04_SURF_TEMP_FF.tex
 Overfull \hbox (162.89418pt too wide) detected at line 58
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png, id=838, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png, id=860, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png  used on input line 58.
@@ -1943,15 +1970,15 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[24
+[25
 
  <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p75_roughness_1mm.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png, id=862, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png, id=885, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png  used on input line 58.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png, id=863, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png, id=886, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png  used on input line 58.
@@ -1967,19 +1994,19 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[25
+[26
 
  <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_surface_temperature_vs_s_slice_1p4_roughness_1mm.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 150
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png, id=896, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png, id=918, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png  used on input line 150.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png, id=897, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png, id=919, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png  used on input line 150.
@@ -1995,15 +2022,15 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[26
+[27
 
  <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_roughness_1mm_relative_to_l1.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png, id=922, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png, id=944, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png  used on input line 150.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png, id=923, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png, id=945, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png  used on input line 150.
@@ -2019,10 +2046,10 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[27
+[28
 
  <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_roughness_1mm.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png, id=948, 1355.0625pt x 702.625pt>
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png, id=971, 1355.0625pt x 702.625pt>
 File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png Graphic file (type png)
 <use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png>
 Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png  used on input line 150.
@@ -2038,47 +2065,23 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[28
-
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png>]
-Overfull \hbox (162.89418pt too wide) detected at line 208
-  [] [] [] [] [] [] [] [] [] 
- []
-
-<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png, id=980, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png  used on input line 208.
-(pdftex.def)             Requested size: 206.5193pt x 107.08315pt.
-
-
-File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
-<use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 208.
-(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
-
-Overfull \hbox (162.89418pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] 
- []
-
 [29
 
- <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png>]
-<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png, id=1004, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png  used on input line 208.
-(pdftex.def)             Requested size: 158.32953pt x 82.09207pt.
-<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png, id=1005, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png  used on input line 208.
-(pdftex.def)             Requested size: 158.32953pt x 82.09207pt.
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_0p75_grouped_roughness.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 162
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png, id=1002, 1806.75pt x 1094.0875pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png  used on input line 162.
+(pdftex.def)             Requested size: 268.47195pt x 162.57016pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 208.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 162.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2087,21 +2090,21 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [30
 
- <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png> <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png>]
-Overfull \hbox (162.89418pt too wide) detected at line 279
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_surface_temperature_vs_n_slice_1p4_grouped_roughness_participants.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 220
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png, id=1037, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png  used on input line 279.
-(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png, id=1024, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png  used on input line 220.
+(pdftex.def)             Requested size: 206.5193pt x 107.08315pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 279.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 220.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2110,22 +2113,22 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [31
 
- <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png>]
-<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png, id=1065, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png  used on input line 279.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png, id=1066, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png  used on input line 279.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+ <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p75_roughness_1mm.png>]
+<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png, id=1049, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png  used on input line 220.
+(pdftex.def)             Requested size: 158.32953pt x 82.09207pt.
+<FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png, id=1050, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png  used on input line 220.
+(pdftex.def)             Requested size: 158.32953pt x 82.09207pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 279.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 220.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2134,17 +2137,26 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [32
 
- <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png> <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png>]
-<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png, id=1091, 1355.0625pt x 702.625pt>
-File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png Graphic file (type png)
-<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png  used on input line 279.
-(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+ <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_0p1_roughness_1mm.png> <./FIGURES/HTC/tc_oneram6_L1_recovery_temperature_vs_s_slice_1p4_roughness_1mm.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 311
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png, id=1082, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png  used on input line 311.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png, id=1083, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png  used on input line 311.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 279.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 311.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2153,21 +2165,22 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [33
 
- <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png>]
-Overfull \hbox (162.89418pt too wide) detected at line 337
-  [] [] [] [] [] [] [] [] [] 
- []
-
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png, id=1122, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png  used on input line 337.
-(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+ <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75.png> <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1_relative_to_l1.png>]
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png, id=1111, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png  used on input line 311.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png, id=1112, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png  used on input line 311.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 337.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 311.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2176,22 +2189,17 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [34
 
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png, id=1150, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png  used on input line 337.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png, id=1151, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png  used on input line 337.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+ <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.1.png> <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_1.4.png>]
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png, id=1137, 1355.0625pt x 702.625pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png  used on input line 311.
+(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 337.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 311.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2200,21 +2208,21 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [35
 
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png>]
-Overfull \hbox (162.89418pt too wide) detected at line 408
+ <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 323
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png, id=1183, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png  used on input line 408.
-(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+<FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png, id=1169, 1806.75pt x 1094.0875pt>
+File: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png Graphic file (type png)
+<use FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png>
+Package pdftex.def Info: FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png  used on input line 323.
+(pdftex.def)             Requested size: 344.19536pt x 208.4297pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 408.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 323.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2223,22 +2231,21 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [36
 
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png, id=1210, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png  used on input line 408.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png, id=1211, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png  used on input line 408.
-(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+ <./FIGURES/HTC/tc_oneram6_qc_prime_vs_n_y_0.75_grouped_roughness_participants.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 381
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png, id=1191, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png  used on input line 381.
+(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 408.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 381.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2247,17 +2254,22 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [37
 
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png>]
-<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png, id=1237, 1355.0625pt x 702.625pt>
-File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png Graphic file (type png)
-<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png>
-Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png  used on input line 408.
-(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p75_roughness_1mm.png>]
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png, id=1219, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png  used on input line 381.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+<FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png, id=1220, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png  used on input line 381.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 408.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 381.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2266,16 +2278,21 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [38
 
- <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png>]
-Overfull \hbox (162.89418pt too wide) detected at line 448
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_L1_freezing_fraction_vs_s_slice_1p4_roughness_1mm.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 452
   [] [] [] [] [] [] [] [] [] 
  []
 
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png, id=1252, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png  used on input line 452.
+(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
 
 
 File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
 <use img_theme/polymtl-watermark.pdf>
-Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 448.
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 452.
 (pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
 
 Overfull \hbox (162.89418pt too wide) has occurred while \output is active
@@ -2284,17 +2301,101 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
 
 [39
 
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_roughness_1mm.png>]
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png, id=1279, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png  used on input line 452.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png, id=1280, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png  used on input line 452.
+(pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 452.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (162.89418pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[40
+
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_roughness_1mm.png> <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_1p4_roughness_1mm.png>]
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png, id=1305, 1355.0625pt x 702.625pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png  used on input line 452.
+(pdftex.def)             Requested size: 213.39943pt x 110.64258pt.
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 452.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (162.89418pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[41
+
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p75_grouped_roughness.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 464
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+<FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png, id=1337, 1806.75pt x 1094.0875pt>
+File: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png Graphic file (type png)
+<use FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png>
+Package pdftex.def Info: FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png  used on input line 464.
+(pdftex.def)             Requested size: 344.19536pt x 208.4297pt.
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 464.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (162.89418pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[42
+
+ <./FIGURES/SURF_TEMP_FF/tc_oneram6_mean_freezing_fraction_vs_n_slice_0p1_grouped_roughness_participants.png>]
+Overfull \hbox (162.89418pt too wide) detected at line 504
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+
+
+File: img_theme/polymtl-watermark.pdf Graphic file (type pdf)
+<use img_theme/polymtl-watermark.pdf>
+Package pdftex.def Info: img_theme/polymtl-watermark.pdf  used on input line 504.
+(pdftex.def)             Requested size: 80.3003pt x 42.54399pt.
+
+Overfull \hbox (162.89418pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[43
+
 ]) (./SLIDES/05_ICE_ACCRETION_CONVERGENCE.tex
 Overfull \hbox (162.89418pt too wide) detected at line 50
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png, id=1331, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png, id=1422, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png  used on input line 50.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png, id=1332, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png, id=1423, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png  used on input line 50.
@@ -2310,19 +2411,19 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[40
+[44
 
  <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png> <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 97
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png, id=1366, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png, id=1457, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png  used on input line 97.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png, id=1367, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png, id=1458, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png  used on input line 97.
@@ -2338,19 +2439,19 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[41
+[45
 
  <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png> <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 139
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png, id=1399, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png, id=1490, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png  used on input line 139.
 (pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1400, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png, id=1491, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png  used on input line 139.
@@ -2366,14 +2467,14 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[42
+[46
 
  <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_to_water_ratio_vs_n_required_bins15.png> <./FIGURES/ICE_ACCRETION/tc_oneram6_ice_evap_to_water_ratio_vs_n_required_bins15.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 162
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png, id=1435, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png, id=1527, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png Graphic file (type png)
 <use FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png>
 Package pdftex.def Info: FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png  used on input line 162.
@@ -2389,14 +2490,14 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[43
+[47
 
  <./FIGURES/ICE_ACCRETION/tc_oneram6_010_ice_mass_vs_n_bins07_grouped_roughness.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 229
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png, id=1470, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png, id=1561, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png  used on input line 229.
@@ -2412,15 +2513,15 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[44
+[48
 
  <./FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png>]
-<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png, id=1494, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png, id=1585, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png  used on input line 229.
 (pdftex.def)             Requested size: 172.09767pt x 89.23238pt.
-<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png, id=1495, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png, id=1586, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png  used on input line 229.
@@ -2436,14 +2537,14 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[45
+[49
 
  <./FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p1_bins15_roughness_1mm.png> <./FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_1p4_bins15_roughness_1mm.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 287
   [] [] [] [] [] [] [] [] [] 
  []
 
-<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png, id=1528, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png, id=1619, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png  used on input line 287.
@@ -2459,15 +2560,15 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[46
+[50
 
  <./FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png>]
-<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png, id=1552, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png, id=1643, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png  used on input line 287.
 (pdftex.def)             Requested size: 161.77222pt x 83.8825pt.
-<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png, id=1553, 1355.0625pt x 702.625pt>
+<FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png, id=1644, 1355.0625pt x 702.625pt>
 File: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png Graphic file (type png)
 <use FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png>
 Package pdftex.def Info: FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png  used on input line 287.
@@ -2483,7 +2584,7 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[47
+[51
 
  <./FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p1_all_conditions.png> <./FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_1p4_all_conditions.png>]
 Overfull \hbox (162.89418pt too wide) detected at line 328
@@ -2501,7 +2602,7 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[48
+[52
 
 ]) (./SLIDES/06_OVERALL_ASSESSMENT.tex
 Overfull \hbox (162.89418pt too wide) detected at line 52
@@ -2519,7 +2620,7 @@ Overfull \hbox (162.89418pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[49
+[53
 
 ])
 \tf@nav=\write6
@@ -2542,21 +2643,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 1E245114AE2F2687F7B681B924F6A2B2;918.
+(rerunfilecheck)             Checksum: 2B3A0DE64A8A51C0BC05A018A3949999;1035.
  ) 
 Here is how much of TeX's memory you used:
- 52289 strings out of 473190
- 1285299 string characters out of 5715801
+ 52340 strings out of 473190
+ 1288647 string characters out of 5715801
  1824099 words of memory out of 5000000
- 74511 multiletter control sequences out of 15000+600000
+ 74554 multiletter control sequences out of 15000+600000
  570637 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,781b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on presentation.pdf (49 pages, 6111473 bytes).
+Output written on presentation.pdf (53 pages, 6686379 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
- 981 compressed objects within 10 object streams
- 105 named destinations out of 1000 (max. 500000)
- 2426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1867 PDF objects out of 2073 (max. 8388607)
+ 1031 compressed objects within 11 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 2451 words of extra memory for PDF output out of 10000 (max. 10000000)
 
