@@ -180,6 +180,7 @@ m_{\mathrm{evap}}
 
 \end{frame}
 
+
 % ============================================================
 % ONERA M6 -- Data Received
 % ============================================================
@@ -187,10 +188,65 @@ m_{\mathrm{evap}}
 \begin{frame}{\small ONERA M6 -- Summary of Data Received}
 \scriptsize
 
-% Number of submissions / participants
-% Grid levels received
-% Droplet distributions received
-% Roughness configurations received
-% Available aerodynamic, impingement, thermal, and ice-accretion data
+\centering
+
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{3.5pt}
+
+\begin{tabular}{c|cccc|cccc|cccc|cccc}
+\toprule
+&
+\multicolumn{4}{c|}{\textbf{L1}} &
+\multicolumn{4}{c|}{\textbf{L2}} &
+\multicolumn{4}{c|}{\textbf{L3}} &
+\multicolumn{4}{c}{\textbf{L4}} \\
+
+\textbf{ID}
+& 1 & 3 & 7 & 15
+& 1 & 3 & 7 & 15
+& 1 & 3 & 7 & 15
+& 1 & 3 & 7 & 15 \\
+\midrule
+
+001 & \checkmark&&& & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+002 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+003 & &&& & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c|}{$*$} & \multicolumn{4}{c}{$*$} \\
+
+004 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+006 & &&& & &&& & &&& & &&& \\
+
+007 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+008 & &&& & &&& & &&& & &&& \\
+
+009 & &&& & &&& & &&& & &&& \\
+
+010 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+013 & &&& & &&& & &&& & &&& \\
+
+014 & &&& & &&& & &&& & &&& \\
+
+015 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+019 & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark & \checkmark&\checkmark&\checkmark&\checkmark \\
+
+020 & &&& & &&& & &&& & &&& \\
+
+\bottomrule
+\end{tabular}
+
+\vspace{0.15cm}
+
+
+\parbox{0.95\textwidth}{\scriptsize\raggedright
+\centering
+\checkmark: populated CutData received for the corresponding droplet-bin distribution.
+\\
+$*$: Excel CFD results only; no populated CutData and no bin count implied.
+}
 
 \end{frame}
