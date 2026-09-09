@@ -1,3 +1,41 @@
+% ============================================================
+% IPW3 -- Participants
+% ============================================================
+
+\begin{frame}{\small IPW3 -- Participants}
+\scriptsize
+
+\centering
+
+\renewcommand{\arraystretch}{1.20}
+\setlength{\tabcolsep}{8pt}
+
+\begin{tabular}{cc}
+\toprule
+\textbf{ID} &
+\textbf{Participant / Organization} \\
+\midrule
+
+001 & CIRA \\
+002 & AeroTex \\
+003 & NRC \\
+004 & ONERA \\
+006 & Dassault \\
+007 & Polytechnique Montréal \\
+008 & Collins Aerospace \\
+009 & Sikorsky \\
+010 & NASA \\
+013 & Boeing \\
+014 & Airbus \\
+015 & NIAR \\
+019 & Synopsys \\
+020 & Bombardier \\
+
+\bottomrule
+\end{tabular}
+
+\end{frame}
+
 \section[Cond.]{\textbf{Case Conditions \& Submission Summary}}
 
 % ============================================================
@@ -36,7 +74,7 @@
 \textbf{Parameter} & \textbf{Value} \\
 \midrule
 Wing & ONERA M6 \\
-Root chord [m] & $1.0000$ \\
+Root chord [m] & $1.0$ \\
 Semi-span [m] & $1.4760$ \\
 Mean aerodynamic chord [m] & $0.801673$ \\
 Reference area [m$^2$] & $1.1532$ \\
@@ -54,11 +92,11 @@ Angle of attack, $\alpha$ [$^\circ$] & $2.0$ \\
 \toprule
 \textbf{Parameter} & \textbf{Value} \\
 \midrule
-$M_\infty$ & $0.40$ \\
+$M_\infty$ [-] & $0.40$ \\
 $U_\infty$ [m/s] & $131.064$ \\
 $T_\infty$ [K] & $267.15$ \\
 $\rho_\infty$ [kg/m$^3$] & $0.68301$ \\
-$Re_c$ & $4.2558\times10^6$ \\
+$Re_c$ [-] & $4.2558\times10^6$ \\
 \bottomrule
 \end{tabular}
 
@@ -157,7 +195,7 @@ A dimensional roughness of \textbf{$k_s=1.0$ mm} is prescribed as the baseline, 
 \vspace{-0.25cm}
 
 \[
-\beta,\quad HTC,\quad T_s,\quad f,\quad
+\beta,\quad HTC,\quad T_s,\quad FF,\quad
 m_{\mathrm{water}},\quad m_{\mathrm{ice}},\quad
 m_{\mathrm{evap}}
 \]
@@ -175,8 +213,41 @@ m_{\mathrm{evap}}
 \begin{frame}{\small ONERA M6 -- Modeling Choices Across Submissions}
 \scriptsize
 
-% Turbulence-model usage
-% Example: SA = 80\%, k-\omega SST = 20\%
+\begin{itemize}
+
+    \item \textbf{Turbulence:}
+    $k$--$\omega$ formulations were dominant (\textbf{80\%}), with SA used by \textbf{20\%}.
+
+    \vspace{0.10cm}
+
+    \item \textbf{Droplet formulation:}
+    Predominantly Eulerian (\textbf{80\%}), with \textbf{20\%} Lagrangian.
+
+    \vspace{0.10cm}
+
+    \item \textbf{Heat transfer:}
+    Documented approaches included recovery-temperature and boundary-layer integral methods.
+
+    \vspace{0.10cm}
+
+    \item \textbf{Thermodynamics:}
+    Messinger-based models were dominant (\textbf{80\%}), with a SWIM-based approach also represented.
+
+    \vspace{0.10cm}
+
+    \item \textbf{Geometry evolution:}
+    Most commonly based on Lagrangian/IB/node displacement; level-set and interpolation-based approaches were also reported.
+
+    \vspace{0.10cm}
+
+    \item \textbf{Ice accretion strategy:}
+    Both single-shot (\textbf{4 submissions}) and multilayer/multishot (\textbf{3 submissions}) approaches were represented.
+
+\end{itemize}
+
+\vfill
+\centering
+\tiny{\textit{Modeling choices disclosed by participants: 001, 002, 004, 007, 008, 009, 014, and 019.}}
 
 \end{frame}
 
@@ -236,6 +307,13 @@ m_{\mathrm{evap}}
 
 020 & &&& & &&& & &&& & &&& \\
 
+\midrule
+\textbf{Total}
+& \textbf{7} & \textbf{6} & \textbf{6} & \textbf{6}
+& \textbf{7} & \textbf{7} & \textbf{7} & \textbf{7}
+& \textbf{7} & \textbf{7} & \textbf{7} & \textbf{7}
+& \textbf{7} & \textbf{7} & \textbf{7} & \textbf{7} \\
+\bottomrule
 \bottomrule
 \end{tabular}
 
@@ -246,7 +324,7 @@ m_{\mathrm{evap}}
 \centering
 \checkmark: populated CutData received for the corresponding droplet-bin distribution.
 \\
-$*$: Excel CFD results only; no populated CutData and no bin count implied.
+$*$: Excel results only, no CutData slices.
 }
 
 \end{frame}
