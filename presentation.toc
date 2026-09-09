@@ -3,4 +3,4 @@
 \beamer@sectionintoc {3}{\textbf {Droplet Impingement}}{14}{0}{3}
 \beamer@sectionintoc {4}{\textbf {Convective Heat Transfer}}{22}{0}{4}
 \beamer@sectionintoc {5}{\textbf {Ice Accretion}}{46}{0}{5}
-\beamer@sectionintoc {6}{\textbf {ONERA M6 Overall Assessment}}{55}{0}{6}
+\beamer@sectionintoc {6}{\textbf {ONERA M6 Overall Assessment}}{63}{0}{6}

@@ -16,31 +16,20 @@
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Ice Mass}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_bins15_all_grid_levels_relative_to_l1.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Relative to L1}
 \end{column}
 
 \end{columns}
-
-\vspace{0.05cm}
-
-{\centering\textbf{Roughness: 1 mm}\par}
 
 \vspace{0.10cm}
 
 \begin{block}{\scriptsize Assessment}
 \begin{itemize}
+    \item At L1, the median predicted ice mass is approximately $2.79$ kg, with an IQR of $0.20$ kg ($7.2\%$), indicating moderate code-to-code variability.
     \item Ice-mass grid sensitivity is strongly submission-dependent.
     \item Relative to L1, coarse-grid differences remain below approximately $5\%$ for several submissions, but reach approximately $20\%$ and $11\%$ for selected submissions on L4.
 \end{itemize}
@@ -61,26 +50,14 @@
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Ice Mass}
 \end{column}
 
 \begin{column}{0.50\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/ICE_ACCRETION/tc_oneram6_ice_mass_vs_n_1mm_l1_vs_inverse_bins_relative_to_bins15.png}
-
-    \vspace{0.05cm}
-
-    \textbf{Relative to 15 Bins}
 \end{column}
 
 \end{columns}
-
-\vspace{0.05cm}
-
-{\centering\textbf{L1 -- Roughness: 1 mm}\par}
 
 \vspace{0.10cm}
 
@@ -179,7 +156,7 @@
 
 \vspace{0.05cm}
 
-{\scriptsize\textbf{$y=0.75$ m -- Roughness: 1 mm}}
+{\scriptsize\textbf{$y=0.75$ m}}
 
 }
 
@@ -226,6 +203,281 @@
 \end{block}
 
 \end{frame}
+
+% ============================================================
+% ONERA M6 -- Ice-Shape Roughness Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Ice-Shape Sensitivity to Surface Roughness}
+\scriptsize
+
+% ------------------------------------------------------------
+% All participants / roughness values
+% ------------------------------------------------------------
+\only<1>{
+
+\centering
+
+\includegraphics[width=0.7\textwidth]
+{FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins07_grouped_roughness.png}
+
+\vspace{0.05cm}
+
+{\scriptsize\textbf{$y=0.75$ m}}
+
+}
+
+% ------------------------------------------------------------
+% Roughness sensitivity by participant
+% ------------------------------------------------------------
+\only<2>{
+
+\centering
+
+\includegraphics[width=0.7\textwidth]
+{FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins07_grouped_roughness_participants.png}
+
+\vspace{0.05cm}
+
+{\scriptsize\textbf{$y=0.75$ m -- Individual Participants}}
+
+}
+
+\vspace{0.12cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item Surface roughness affects the predicted ice geometry, particularly the horn height, extent, and orientation.
+    \item<2-> The sensitivity to roughness is participant-dependent, with some submissions exhibiting larger geometric changes than others.
+    \item<2-> Nevertheless, substantial differences remain between participants even at comparable roughness levels, indicating that roughness alone does not explain the observed code-to-code variability.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Upper Horn Angle Method
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Upper-Horn Angle Extraction}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+% ------------------------------------------------------------
+% y = 0.10 m
+% ------------------------------------------------------------
+\begin{column}{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_010_slice_0p1_upper_horn_angle_method.png}
+
+    \vspace{0.05cm}
+    
+    {\scriptsize\textbf{$y=0.10$ m}}
+\end{column}
+
+% ------------------------------------------------------------
+% y = 0.75 m
+% ------------------------------------------------------------
+\begin{column}{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_010_slice_0p75_upper_horn_angle_method.png}
+
+    \vspace{0.05cm}
+    
+    {\scriptsize\textbf{$y=0.75$ m}}
+\end{column}
+
+% ------------------------------------------------------------
+% y = 1.40 m
+% ------------------------------------------------------------
+\begin{column}{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_010_slice_1p4_upper_horn_angle_method.png}
+
+    \vspace{0.05cm}
+    
+    {\scriptsize\textbf{$y=1.40$ m}}
+\end{column}
+
+\end{columns}
+
+\vspace{0.15cm}
+
+\begin{block}{\scriptsize Definition}
+\begin{itemize}
+    \item The upper-horn angle is evaluated independently at each of the three spanwise slices.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+% ONERA M6 -- Upper Horn Angle Grid Convergence
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Upper-Horn Angle Variation ($y=0.75$ m)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+% ------------------------------------------------------------
+% Absolute horn angle
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins15_roughness_1mm.png}
+
+\end{column}
+
+% ------------------------------------------------------------
+% Relative to L1
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins15_roughness_1mm_relative_to_l1.png}
+\end{column}
+
+\end{columns}
+
+\vspace{0.12cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item The upper-horn angle exhibits substantial participant-to-participant variability at the finest grid level.
+    \item Grid refinement generally produces smaller changes than the overall code-to-code spread, although the grid sensitivity varies between submissions.
+    \item Refinement therefore does not lead to a common horn-angle prediction across participants.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+
+% ============================================================
+% ONERA M6 -- Upper Horn Angle Other Slices
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Upper-Horn Angle Variation at Other Slices}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p1_bins15_roughness_1mm.png}
+
+    \vspace{0.05cm}
+    {\scriptsize\textbf{$y=0.10$ m}}
+\end{column}
+
+\begin{column}{0.50\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_1p4_bins15_roughness_1mm.png}
+
+    \vspace{0.05cm}
+    {\scriptsize\textbf{$y=1.40$ m}}
+\end{column}
+
+\end{columns}
+
+\vspace{0.12cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item Similar horn-angle variability is observed at the inboard and outboard slices.
+    \item The spread remains larger than the grid-refinement effect for several submissions.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+% ============================================================
+% ONERA M6 -- Upper Horn Angle Distribution Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Upper-Horn Angle Distribution Sensitivity ($y=0.75$ m)}
+\scriptsize
+
+\begin{columns}[T,onlytextwidth]
+
+% ------------------------------------------------------------
+% Absolute horn angle
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_distribution_convergence_l1_slice_0p75_roughness_1mm.png}
+
+\end{column}
+
+% ------------------------------------------------------------
+% Relative to 15 bins
+% ------------------------------------------------------------
+\begin{column}{0.50\textwidth}
+    \centering
+
+    \includegraphics[width=\textwidth]
+    {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_distribution_convergence_l1_slice_0p75_roughness_1mm_relative_to_bins15.png}
+
+\end{column}
+
+\end{columns}
+
+\vspace{0.12cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item The upper-horn angle is largely insensitive to droplet-distribution resolution for most submissions.
+    \item One submission exhibits a stronger sensitivity when reducing the number of bins, reaching approximately $14\%$ relative to the 15-bin prediction.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+% ============================================================
+% ONERA M6 -- Upper Horn Angle Roughness Sensitivity
+% ============================================================
+
+\begin{frame}{\small ONERA M6 -- Upper-Horn Angle Sensitivity to Roughness}
+\scriptsize
+
+\only<1>{
+\centering
+\includegraphics[width=0.82\textwidth]
+{FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins07_grouped_roughness.png}
+}
+
+\only<2>{
+\centering
+\includegraphics[width=0.82\textwidth]
+{FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins07_grouped_roughness_participants.png}
+}
+
+\vspace{0.12cm}
+
+\begin{block}{\scriptsize Assessment}
+\begin{itemize}
+    \item Surface roughness affects the predicted upper-horn angle at the mid-span slice.
+    \item<2-> The roughness response is participant-dependent, with some submissions showing stronger sensitivity than others.
+    \item<2-> Differences remain between participants even at comparable roughness levels, indicating that roughness alone does not explain the horn-angle spread.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
 
 % ============================================================
 % ONERA M6 -- Multilayer Ice Shapes
