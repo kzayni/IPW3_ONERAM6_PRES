@@ -4,7 +4,7 @@
 % ============================================================
 % ============================================================
 
-\section[Aero.]{\textbf{Aerodynamic Grid Convergence}}
+\section[Aerodynamics]{\textbf{Aerodynamic Grid Convergence}}
 
 
 % ============================================================
@@ -15,20 +15,22 @@
 \scriptsize
 
 {\centering
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cl_vs_n_1mm.png}
-\hfill
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cl_vs_n_1mm_relative_to_l1.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cl_vs_n_1mm.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cl_vs_n_1mm_relative_to_l1.png}
 \par}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item At L1, the median lift coefficient is $C_L=0.12213$, with an IQR of $6.89\times10^{-4}$ ($0.56\%$).
+    \item At L1, the median lift coefficient is $C_L=0.12213$, with an IQR of $6.89\times10^{-4}$ ($0.4956\%$).
     \item Coarse-grid deviations generally remain within a few percent of the corresponding L1 predictions.
     \item The code-to-code spread in $C_L$ remains small across the grid levels.
 \end{itemize}
 \end{block}
+
+\vfill
+{\tiny\textit{IQR = interquartile range (75th percentile -- 25th percentile).}}
 
 \end{frame}
 
@@ -41,14 +43,14 @@
 \scriptsize
 
 {\centering
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cd_vs_n_1mm.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cd_vs_n_1mm.png}
 \hfill
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cd_vs_n_1mm_relative_to_l1.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cd_vs_n_1mm_relative_to_l1.png}
 \par}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median drag coefficient is $C_D=0.01786$ (178.6 drag counts), with an IQR of $2.64\times10^{-3}$ (26.4 drag counts, $14.8\%$).
     \item $C_D$ exhibits considerably larger code-to-code variability than $C_L$.
@@ -69,14 +71,14 @@
 \scriptsize
 
 {\centering
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cmy_vs_n_1mm.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cmy_vs_n_1mm.png}
 \hfill
-\includegraphics[width=0.48\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cmy_vs_n_1mm_relative_to_l1.png}
+\includegraphics[width=0.495\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_cmy_vs_n_1mm_relative_to_l1.png}
 \par}
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item At L1, the median pitching-moment coefficient is $C_M=-0.04736$, with an IQR of $2.93\times10^{-4}$ ($0.62\%$).
     \item Most submissions exhibit limited sensitivity to spatial grid refinement.
@@ -98,7 +100,7 @@
 % ------------------------------------------------------------
 \only<1>{
 \centering
-\includegraphics[width=0.62\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_L1_cp_vs_s_slice_0p75_roughness_1mm.png}
+\includegraphics[width=0.5\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_L1_cp_vs_s_slice_0p75_roughness_1mm.png}
 
 \vspace{0.05cm}
 
@@ -111,7 +113,7 @@ $y=0.75$ m
 \only<2>{
 \begin{columns}[T,onlytextwidth]
 
-\begin{column}{0.50\textwidth}
+\begin{column}{0.4950\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_L1_cp_vs_s_slice_0p1_roughness_1mm.png}
 
@@ -120,7 +122,7 @@ $y=0.75$ m
     $y=0.10$ m
 \end{column}
 
-\begin{column}{0.50\textwidth}
+\begin{column}{0.4950\textwidth}
     \centering
     \includegraphics[width=0.94\textwidth]{FIGURES/AERODYNAMIC/tc_oneram6_L1_cp_vs_s_slice_1p4_roughness_1mm.png}
 
@@ -134,7 +136,7 @@ $y=0.75$ m
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item The submitted $C_p$ distributions are generally closely clustered across all three spanwise locations.
     \item The characteristic pressure variations associated with the leading-edge and suction-side peak are consistently captured by the participants.
@@ -168,7 +170,7 @@ $y=0.75$ m
 \toprule
  & \textbf{Median} & \textbf{IQR} & \textbf{Relative IQR} \\
 \midrule
-$C_L$ & $0.12213$  & $6.89\times10^{-4}$ & $0.56\%$ \\
+$C_L$ & $0.12213$  & $6.89\times10^{-4}$ & $0.4956\%$ \\
 $C_D$ & $0.01786$  & $2.64\times10^{-3}$ & $14.8\%$ \\
 $C_M$ & $-0.04736$ & $2.93\times10^{-4}$ & $0.62\%$ \\
 \bottomrule

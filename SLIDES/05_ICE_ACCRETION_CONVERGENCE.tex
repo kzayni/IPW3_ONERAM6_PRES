@@ -2,7 +2,7 @@
 % ONERA M6 -- ICE ACCRETION
 % ============================================================
 
-\section[Ice]{\textbf{Ice Accretion}}
+\section[Ice Accretion]{\textbf{Ice Accretion}}
 
 % ============================================================
 % ONERA M6 -- Ice Mass Grid Convergence
@@ -27,11 +27,10 @@
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item At L1, the median predicted ice mass is approximately $2.79$ kg, with an IQR of $0.20$ kg ($7.2\%$), indicating moderate code-to-code variability.
-    \item Ice-mass grid sensitivity is strongly submission-dependent.
-    \item Relative to L1, coarse-grid differences remain below approximately $5\%$ for several submissions, but reach approximately $20\%$ and $11\%$ for selected submissions on L4.
+    \item At L1, median ice mass is $2.79$ kg with a $7.2\%$ IQR.
+    \item Grid sensitivity is submission-dependent, with L4 deviations ranging from below $5\%$ to approximately $20\%$.
 \end{itemize}
 \end{block}
 
@@ -61,12 +60,10 @@
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Ice mass exhibits limited sensitivity to droplet-distribution resolution for most submissions.
-    \item Relative differences from the 15-bin prediction generally remain within approximately $3\%$, with one isolated 7-bin deviation of approximately $8\%$.
-    \item Code-to-code differences remain considerably larger than the droplet-distribution effect.
-    \item This behavior is consistent with the weak distribution sensitivity previously observed for the integrated impinged water mass.
+    \item Ice mass shows limited sensitivity to droplet-distribution resolution, generally within $\sim3\%$ of the 15-bin prediction.
+    \item This is consistent with the weak distribution sensitivity observed for impinged water mass.
 \end{itemize}
 \end{block}
 
@@ -104,7 +101,7 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item Most submissions convert approximately $85$--$89\%$ of the impinged water mass into ice.
     \item Accounting for evaporation brings the mass balance close to $100\%$ for some submissions.
@@ -128,7 +125,7 @@
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item One submission provided additional results for multiple prescribed roughness heights.
     \item Ice mass increases substantially with roughness, from approximately $1.3$ kg at $k_s=0.5$ mm to $1.9$ kg at $k_s=1.5$ mm on L1.
@@ -152,7 +149,7 @@
 
 \centering
 
-\includegraphics[width=0.6\textwidth]{FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png}
+\includegraphics[width=0.5\textwidth]{FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins15_roughness_1mm.png}
 
 \vspace{0.05cm}
 
@@ -193,12 +190,11 @@
 
 \vspace{0.15cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Considerable code-to-code variability is observed in the predicted ice shape, particularly in horn height, orientation, and local accretion thickness.
-    \item Despite these differences, the submissions predict a broadly similar overall accretion region around the leading edge.
-    \item<2-> Similar code-to-code variability is observed at the other spanwise locations.
-    \item<2-> The geometric spread is consistent with the differences previously observed in the thermodynamic predictions, despite comparatively good agreement in water impingement.
+    \item Considerable code-to-code variability is observed in ice shape, particularly in horn geometry and local thickness.
+    \item<2-> Similar variability persists at the inboard and outboard spanwise locations.
+    \item<2-> Shape variability is consistent with the thermodynamic spread, despite comparatively good impingement agreement.
 \end{itemize}
 \end{block}
 
@@ -218,7 +214,7 @@
 
 \centering
 
-\includegraphics[width=0.7\textwidth]
+\includegraphics[width=0.5\textwidth]
 {FIGURES/ICE_SHAPES/tc_oneram6_L1_single_layer_ice_shape_slice_0p75_bins07_grouped_roughness.png}
 
 \vspace{0.05cm}
@@ -245,11 +241,11 @@
 
 \vspace{0.12cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Surface roughness affects the predicted ice geometry, particularly the horn height, extent, and orientation.
-    \item<2-> The sensitivity to roughness is participant-dependent, with some submissions exhibiting larger geometric changes than others.
-    \item<2-> Nevertheless, substantial differences remain between participants even at comparable roughness levels, indicating that roughness alone does not explain the observed code-to-code variability.
+    \item Surface roughness affects ice geometry, horn height, extent, and orientation.
+    \item The magnitude of the roughness effect is participant-dependent.
+    \item Roughness alone does not explain the overall code-to-code variability.
 \end{itemize}
 \end{block}
 
@@ -350,11 +346,10 @@
 
 \vspace{0.12cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The upper-horn angle exhibits substantial participant-to-participant variability at the finest grid level.
-    \item Grid refinement generally produces smaller changes than the overall code-to-code spread, although the grid sensitivity varies between submissions.
-    \item Refinement therefore does not lead to a common horn-angle prediction across participants.
+    \item Substantial code-to-code variability is observed in the upper-horn angle at L1.
+    \item Refinement does not lead to convergence toward a common horn-angle prediction.
 \end{itemize}
 \end{block}
 
@@ -393,7 +388,7 @@
 
 \vspace{0.12cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
     \item Similar horn-angle variability is observed at the inboard and outboard slices.
     \item The spread remains larger than the grid-refinement effect for several submissions.
@@ -437,9 +432,9 @@
 
 \vspace{0.12cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item The upper-horn angle is largely insensitive to droplet-distribution resolution for most submissions.
+    \item The upper-horn angle is insensitive to droplet-distribution resolution for most submissions.
     \item One submission exhibits a stronger sensitivity when reducing the number of bins, reaching approximately $14\%$ relative to the 15-bin prediction.
 \end{itemize}
 \end{block}
@@ -456,26 +451,24 @@
 
 \only<1>{
 \centering
-\includegraphics[width=0.82\textwidth]
+\includegraphics[width=0.7\textwidth]
 {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins07_grouped_roughness.png}
 }
 
 \only<2>{
 \centering
-\includegraphics[width=0.82\textwidth]
+\includegraphics[width=0.7\textwidth]
 {FIGURES/ICE_HORNS/tc_oneram6_upper_horn_angle_vs_n_slice_0p75_bins07_grouped_roughness_participants.png}
 }
 
 \vspace{0.12cm}
-
-\begin{block}{\scriptsize Assessment}
+\only<1>{
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item Surface roughness affects the predicted upper-horn angle at the mid-span slice.
-    \item<2-> The roughness response is participant-dependent, with some submissions showing stronger sensitivity than others.
-    \item<2-> Differences remain between participants even at comparable roughness levels, indicating that roughness alone does not explain the horn-angle spread.
+    \item Surface roughness affects the upper-horn angle, with a participant-dependent response.
 \end{itemize}
 \end{block}
-
+}
 \end{frame}
 
 
@@ -491,7 +484,7 @@
 % ------------------------------------------------------------
 \only<1>{
 \centering
-\includegraphics[width=0.70\textwidth]{FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png}
+\includegraphics[width=0.5\textwidth]{FIGURES/ICE_SHAPES/tc_oneram6_finest_grid_multilayer_ice_shape_slice_0p75_all_conditions.png}
 
 \vspace{0.05cm}
 
@@ -527,11 +520,11 @@
 
 \vspace{0.10cm}
 
-\begin{block}{\scriptsize Assessment}
+\begin{block}{\scriptsize Observations}
 \begin{itemize}
-    \item<1-> Considerable code-to-code variability is observed in horn orientation, extent, and local ice thickness.
-    \item<1-> Predicted accretion ranges from relatively compact shapes to substantially larger upper- and lower-surface horns.
-    \item<2-> Similar geometric variability persists at the inboard and outboard spanwise stations.
+    \item<1-> Considerable code-to-code variability is observed in horn geometry and local ice thickness.
+    \item<2-> Using multiple accretion layers does not lead to convergence toward a common ice shape.
+    \item<2-> Similar variability persists at the inboard and outboard spanwise stations.
 \end{itemize}
 \end{block}
 
@@ -573,7 +566,7 @@
 \vspace{0.08cm}
 
 \begin{alertblock}{\scriptsize Ice Accretion Takeaway}
-Good agreement in water impingement does not translate into comparable ice accretion; substantial differences emerge in mass partition and final ice geometry, highlighting the influence of the thermodynamic treatment.
+Good agreement in water impingement does not translate into comparable ice accretion; substantial differences emerge in ice mass and final ice geometry, highlighting the influence of the thermodynamic treatment.
 \end{alertblock}
 
 \end{frame}

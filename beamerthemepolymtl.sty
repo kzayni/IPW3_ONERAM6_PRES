@@ -43,15 +43,26 @@
 {
   \thispagestyle{empty}
 
-  \begin{picture}(0,0)(0,0)
-    \put(-30,-190){\includegraphics[width=1.1\paperwidth]{img_theme/background_lassonde.png}}
-    %\put(-32.1,-145){\includegraphics[width=0.80\paperwidth]{img_theme/HUVLM_Banner.pdf}}
-     \put(-32.1,-145){\tikz \fill [white] (0,0) rectangle (13,1.25);}    
-    % \put(-25,-139){\includegraphics[height=0.8cm]{img_theme/Bombardier}} % gauche
-    % \put(85,-149){\includegraphics[height=1.2cm,trim={3cm 7cm 3cm 7cm},clip]{img_theme/CRQ_Logos_EN_1Coul_TX_Hori.eps}} % centre gauche
-    % \put(170,-141){\includegraphics[height=1.0cm]{img_theme/NSERC_C}} % centre droit
-     \put(250.4,-144){\includegraphics[height=1.20cm]{img_theme/Polytechnique_signature-CMYK-droite_ENG}} %droite
-  \end{picture}
+  \begin{tikzpicture}[remember picture,overlay]
+
+      % Full-page background image
+      \node[anchor=center,inner sep=0pt] at (current page.center) {%
+          \includegraphics[
+              width=\paperwidth,
+              height=\paperheight
+          ]{img_theme/lassonde.jpg}%
+      };
+
+      % Polytechnique logo -- top right
+      \node[
+          anchor=north east,
+          inner sep=0pt
+      ] at ([xshift=-0.5cm,yshift=-0.5cm]current page.north east) {%
+          \includegraphics[height=1.20cm]
+          {img_theme/Logo_Alternatif_Polytechnique_Montreal_blanc_rgb}%
+      };
+
+  \end{tikzpicture}
 
 
   
